@@ -1,3 +1,6 @@
+Names: Paulina Gonzalez-Brito,
+UFIDs: 14734443,
+
 #Problem Statement
 Implement and compare three cache eviction policies on the same request sequence:
 
