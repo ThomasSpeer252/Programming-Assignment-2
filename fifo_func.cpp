@@ -58,29 +58,3 @@ int fifo(int k, const vector<int>& number_of_requests)
 
     return number_of_misses;
 }
-
-int main(int argc, char* argv[]) {
-    if (argc < 2) {
-        cerr << "Usage: " << argv[0] << " <input_file>" << endl;
-        return 1;
-    }
-
-    ifstream infile(argv[1]);
-    if (!infile) {
-        cerr << "Error: could not open file " << argv[1] << endl;
-        return 1;
-    }
-
-    int k, m;
-    infile >> k >> m;
-
-    vector<int> requests(m);
-    for (int i = 0; i < m; i++) {
-        infile >> requests[i];
-    }
-
-    int misses = fifo(k, requests);
-    cout << "FIFO  : " << misses << endl;
-
-    return 0;
-}
