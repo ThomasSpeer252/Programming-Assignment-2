@@ -1,5 +1,6 @@
-Names: Paulina Gonzalez-Brito,
-UFIDs: 14734443,
+Names: Paulina Gonzalez-Brito, Thomas Speer
+UFIDs: 14734443, 80978847
+
 
 #Problem Statement
 Implement and compare three cache eviction policies on the same request sequence:
