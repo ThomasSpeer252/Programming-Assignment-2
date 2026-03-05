@@ -1,6 +1,5 @@
-Names: Paulina Gonzalez-Brito, Thomas Speer
-UFIDs: 14734443, 80978847
-
+### Paulina Gonzalez-Brito, 14734443</br>
+### Thomas Speer, 80978847</br>
 
 
 # Usage Guide<br>
