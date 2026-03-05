@@ -23,5 +23,10 @@ Example Usage:<br>
 ./generate 3 240 15 1 test/example.in<br>
 ./cache_sim test/example.in<br>
 
+OUTPUT</br>
+FIFO : 190</br>
+LRU : 188</br>
+OPTFF : 137</br>
+
 Example input files located in /test</br>
 
