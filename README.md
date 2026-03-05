@@ -3,11 +3,11 @@
 
 
 # Usage Guide<br>
-1.Build Files<br>
+### 1.Build Files<br>
 g++ src/generate.cpp -o generate</br>
 g++ src/cache_sim.cpp -o cache_sim</br>
 
-## Run Files:<br>
+### 2.Run Files:<br>
 ./generate k m max seed output_file<br>
 k->Cache Capacity<br>
 m->number of requests<br>
